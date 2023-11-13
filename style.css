@@ -1,0 +1,222 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    background-color:#eec0c8;
+}
+
+.container-fluid{
+    background-color: lightgrey;
+    padding: 30px;
+    width: 90%;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    box-shadow: 5px  #888888;
+
+    
+}
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: rgb(232, 18, 122);
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+
+.carousel-item{
+    transform: translateX(25%);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(232, 18, 122);
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgb(232, 18, 122);
+    line-height: 0;
+}
+.mi{
+    font-family: arial;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(232, 18, 122);
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(255, 254, 254);
+    width: 90%;
+}
+
+.row{
+    font-family: poppins;
+    color:  #F9629F;
+}
+
+.h2{
+    font-family: "poppins";
+    color:  #272829;
+
+}
+
+.skill-progress {
+
+    background-color: rgb(212, 199, 199);
+    border-radius: 10px;
+}
+
+.skill-progress-wrap{
+
+    background-color: rgb(232, 18, 122);
+    border-radius: 10px;
+}
+
+.motto .section-header {
+    margin-bottom: 40px;
+  }
+  
+  
+  .motto .motto-item {
+    text-align: center;
+  }
+  
+  .motto .motto-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #F9629F;
+  }
+  
+  .motto .motto-item h4 {
+    font-size: 14px;
+    color: #F9629F;
+    margin: 0 0 15px 0;
+  }
+  
+  .motto .motto-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+  }
+
+  .social-icons {
+    font-size: 15px;
+    color: hotpink;
+    margin: 0px;
+}
+
+.contact .info {
+    width: 100%;
+ 
+  }
+  
+  .contact .info i {
+    font-size: 30px;
+    color: rgb(232, 18, 122);
+    float: left;
+    width: 40px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: rgb(232, 18, 122);
+  }
+  
+  .contact .info p {
+    padding: 2px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    color: #F9629F;
+  }
+  
+  .contact .info .email,
+  .contact .info .phone {
+    margin-top: 20px;
+  }
+  
+  .contact .email-form {
+    width: 100%;
+ 
+  }
+  
+  .contact .email-form .form-group {
+    padding-bottom: 8px;
+  }
+  
+  .contact .email-form input,
+  .contact .email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .email-form input[type=text],
+  .contact .email-form input[type=email] {
+    height: 44px;
+  }
+  
+  .contact .email-form textarea {
+    padding: 10px 12px;
+  }
+  
+  .contact .email-form button[type=submit] {
+    background: #0563bb;
+    border: 0;
+    padding: 10px 35px;
+    color: rgb(232, 18, 122);
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .contact .email-form button[type=submit]:hover {
+    background: lightpink;
+  }
